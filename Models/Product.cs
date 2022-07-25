@@ -25,7 +25,7 @@ namespace CRUDusingADO.Models
 
         [Required(ErrorMessage = "Price is required")]
         [Display(Name = "Product Price")]
-        [Range(minimum:1 ,  maximum:50000)]
+        [Range(minimum:1 ,  maximum:60000)]
         public int  Price { get; set; }
     }
 }
