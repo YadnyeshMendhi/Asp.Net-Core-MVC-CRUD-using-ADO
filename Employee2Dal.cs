@@ -32,8 +32,7 @@ namespace CRUDusingADO
                     Employee2 E = new Employee2();
                     E.EmpId = Convert.ToInt32(dr["EmpId"]);
                     E.EmpName = dr["EmpName"].ToString();
-                    E.EmpSalary = Convert.ToInt32(dr["EmpSalary"]);
-
+                    E.EmpSalary =Convert.ToInt32(dr["EmpSalary"]);
                     elist.Add(E);
                 }
             }
