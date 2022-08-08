@@ -44,7 +44,6 @@ namespace CRUDusingADO.Controllers
                 int result = db.AddProduct(product);
                 if (result == 1)
                     return RedirectToAction(nameof(Index));
-               
                 else
                     return View();
             }

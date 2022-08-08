@@ -9,6 +9,7 @@ namespace CRUDusingADO
 {
     public class ProductDal
     {
+        //componants of ADO.NET
         SqlConnection con;
         SqlCommand cmd;
         SqlDataReader dr;
